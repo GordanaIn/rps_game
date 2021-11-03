@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+body{
+    font-family: 'Roboto Slab', serif;
+    background-image: url(../pic/pop.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-shadow: 4px 4px 8px dodgerblue;
+    position: center;
+}
+.title{
+    border: 10px solid #bccbcf;
+    position: center;
+    text-align: center;
+    background-color: #7a295a;
+    color: white;
+    margin: auto;
+    white-space: inherit;
+    background-attachment: fixed;
+
+}
+.title a{
+    padding:3px ;
+    position: marker;
+    white-space: inherit;
+    color: white;
+    background-color: black;
+    background-attachment: fixed;
+
+}
+.new1{
+    white-space: inherit;
+    background-color: palegoldenrod;
+    width: 350px;
+    border: 10px solid#7a295a;
+    padding: inherit;
+    margin: auto;
+    position: center;
+    background-attachment: fixed;
+
+}
+.nav-tabs{
+    color: black;
+}
+
+label{
+    color: #cf1484;
+}
+button{
+    color: white;
+    background-color: #cf1484;
+    margin: 5px 10px;
+    padding: 5px;
+    background-attachment: fixed;
+}
+.head{
+    white-space: inherit;
+    background-color: palegoldenrod;
+    width: 350px;
+    border: 10px solid#7a295a;
+    padding: inherit;
+    margin: auto;
+    position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: #cf1484;
+}
+.new2{
+    white-space: inherit;
+    background-color: palegoldenrod;
+    width: 350px;
+    padding-bottom: 300px;
+    padding-top: -1px;
+    border: 10px solid #7a295a;
+    margin: auto;
+    position: center;
+    color: #cf1484;
+    text-align: center;
+    background-attachment: fixed;
+
+
+}
+.refresh {
+    background-color: palegoldenrod;
+    border: 10px solid #7a295a;
+    padding: 10px;
+    margin: 2px 4px;
+    position: center;
+    color: #036e07;
+    background-attachment: fixed;
+
+}
+
+footer{
+    background: black;
+    padding: -4px;
+    text-align: center;
+    color:white;
+    text-shadow: 5px 5px 8px #6358c4;
+}

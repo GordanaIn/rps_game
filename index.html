@@ -1,0 +1,198 @@
+<!--
+@gordanaIn 2020 october
+Dis page is for all game and för information of game and page
+Also to register or login on the page
+@Dropdown to menu
+@Card-body to roles of game
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/36c4c67d0f.js"></script>
+    <link href="css/index/index.css" rel="stylesheet"/>
+    <link href="css/login/login.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+    <title>Game</title>
+
+</head>
+<body>
+    <div class="mobile-container">
+    <div class="align-bottom">
+ <!-- Responsive view for mobile devices -->
+    <nav  class="navbar navbar-expand{-sm|-md|-lg|-xl} bg- navbar-brand">
+        <h1>Welcome to Game</h1>
+        <p>Here you can play Game</p>
+
+<!-- Menu with 5 choice, with dropdown -->
+
+        <!-- Home menu -->
+        <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+        <div class="align-bottom">
+        <div class="btn-group">
+            <button class="btn btn-home" type="button">Home</button>
+            <button class="btn btn-home dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" type="button">
+            </button>
+            <!-- Dropdown -->
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="index.html">Home</a>
+                <a class="dropdown-item" href="index.html">Contact</a>
+            </div>
+
+
+        <!-- Game menu -->
+        <div class="btn-group">
+            <button class="btn btn-games" type="button">Games</button>
+            <button class="btn btn-games dropdown-toggle  dropdown-toggle-split" data-toggle="dropdown"
+                   type="button">
+            </button>
+             <!-- Dropdown -->
+        <div class="dropdown-menu">
+              <a class="dropdown-item" href="html/game/game.html">Rock Paper Scissors</a>
+              <a class="dropdown-item" href="index.html">Monopoly</a>
+              <a class="dropdown-item" href="index.html">Chess</a>
+        </div>
+
+        <!-- Login menu -->
+
+                <div class="btn-group">
+               <button class="btn btn-login or register" type="button">Login or Register</button>
+               <button class="btn btn-login or register dropdown-toggle  dropdown-toggle-split" data-toggle="dropdown"
+                        type="button">
+               </button>
+
+              <!-- Dropdown -->
+
+
+
+                <div class="dropdown-menu">
+               <a class="dropdown-item" href="html/register/register.html">Register</a>
+                 <h5>Login</h5>
+               <form action="/action_page.php" class="form-inline">
+               <label for="email">Email:</label>
+               <input id="email" name="email" placeholder="Enter email" type="email">
+               <label for="pwd">Password:</label>
+               <input id="pwd" name="paw" placeholder="Enter password" type="password">
+               <label>
+               <input name="remember" type="checkbox"> Remember me
+               </label>
+                   <button type="submit">Login</button>
+               </form>
+
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </nav>
+                </div>
+                </div>
+<br>
+<br>
+
+<!-- Roles for the games -->
+        <div class="card mb-3" style="max-width: 100%;">
+                <div class="row no-gutters">
+                <div class="col-md-4">
+                <img alt="..." class="card-img" src="pic/ilol/ilol.jpg">
+                </div>
+
+
+                <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title">Rock,Paper and Scissors</h5>
+                <p class="card-text">Rock,paper and Scissors it is a simple hand game with many names and variations.
+                    It is played around the world and is commonly used as a way of coming to decisions. In some cases is
+                    even played for sport. The rules require that competing players use one hand to form one of three shapes at an agreed-upon
+                    time. The person that plays the strongest “object” is the winner of the game. It's that easy!
+                    Rock, Paper, Scissors is a simple game that anybody can play and win. You can click on the blue
+                    button "Go to Rules"and learn more about the rules of the game! Good luck!</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 min ago</small></p>
+                <a class="btn btn-primary" href="https://www.wikihow.com/Play-Rock,-Paper,-Scissors">Go to Rules</a>
+                <a class="btn btn-primary" href="html/leaderboard/lboard.html">Join to NEW GAME </a>
+
+               </div>
+               </div>
+               </div>
+
+        </div>
+
+<!-- Break -->
+<br>
+<br>
+<br>
+
+        <div class="card mb-3" style="max-width: 80rem;">
+                <div class="row no-gutters">
+                <div class="col-md-4">
+                <img alt="..." class="card-img" src="pic/mono/monopol.jpg">
+                </div>
+
+                <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title">Monopoly</h5>
+                <p class="card-text">Monopoly is the real-estate board game for two to eight players, in which the
+                    player's goal is to remain financially solvent while forcing opponents into bankruptcy by buying and
+                    developing pieces of property. You can click on the blue button "Go to Rules"and learn more about
+                    the rules of the game! Good luck!</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 min ago</small></p>
+                <a class="btn btn-primary" href="https://en.wikibooks.org/wiki/Monopoly/Official_Rules">Go to Rules</a>
+                </div>
+                </div>
+                </div>
+            <div id="start-game" class="mx-5 d-flex flex-row align-items-center"></div>
+        </div>
+
+<!-- Break-->
+<br>
+<br>
+<br>
+
+        <div class="card mb-3" style="max-width: 80rem;">
+                <div class="row no-gutters">
+                <div class="col-md-4">
+                <img alt="..." class="card-img" src="pic/chess/chess.jpg">
+                </div>
+
+                <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title">Chess</h5>
+                <p class="card-text">Chess is a board game for two players. It is played in a square board, made of 64
+                    smaller squares, with eight squares on each side. Each player starts with sixteen pieces: eight pawns,
+                    two knights, two bishops, two rooks, one queen and one king. The goal of the game is for each player
+                    to try and checkmate the king of the opponent. You can click on the blue button "Go to Rules"and
+                    learn more about the rules of the game! Good luck!</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 min ago</small></p>
+                <a class="btn btn-primary" href="http://www.chesscoachonline.com/chess-articles/chess-rules">Go to
+                    Rules</a>
+                </div>
+                </div>
+                </div>
+        </div>
+
+
+
+<!-- Break-->
+<br>
+<br>
+<br>
+<br>
+
+    <!-- Footer on the pages-->
+    <footer>
+    <p>Author: Gordana Inic <br>
+    <a href="mailto:hege@example.com">hege@example.com</a></p>
+    </footer>
+
+</body>
+</html>

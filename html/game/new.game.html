@@ -1,0 +1,81 @@
+<!--
+@gordanaIn 2020 october
+
+Page is the game of player vs player
+Dis page is  with token
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/36c4c67d0f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../../css/game/new.game.css"/>
+  <link rel="stylesheet" href="../../css/modal/new.g.modal.css"/>
+
+
+  <title>New Game</title>
+</head>
+<body>
+
+<!-- Restart or Clos the game-->
+
+  <header class="header">
+    <h1>Rock Paper and Scissors</h1>
+    <a class=" bth bth-primary " href="../leaderboard/lboard.html">Closed Game</a><br>
+
+    <div class="score_board">
+        <div id="player1"  class="user1">Player1 </div>
+        <div id="player2" class="user2">Player2 </div>
+        <span id="user1Score">0</span> <span id="user2Score">0</span>
+    </div>
+    <h2>Make Your Selection</h2>
+  </header>
+
+
+  <!-- Form of Game-->
+  <div class="choices">
+    <div id="SCISSORS"  class="choice fas fa-hand-scissors fa-7x"> </div>
+    <div  id="ROCK" class="choice fas fa-hand-rock fa-7x"> </div>
+    <div  id="PAPER"  class="choice fas fa-hand-paper fa-7x"> </div>
+  </div>
+
+
+
+  <!--Modal to result-->
+  <nav class="navbar navbar-expand{-sm|-md|-lg|-xl} bg- navbar-brand">
+    <div id="id" class="modal">
+      <div id="result" class="modal-content">
+        <h3 class="text-win"> </h3>
+        <i class="fas fa-hand-rock fa-7x"> </i>
+        <p> </p>
+      </div>
+    </div>
+  </nav>
+
+<!-- Break-->
+
+
+<br>
+<br>
+<br>
+<br>
+
+<!--Footer on pages to go back on first pages-->
+<footer>
+        <h3>Author: Gordana Inic <br>
+         <a href="mailto:hege@example.com">hege@example.com</a></h3>
+</footer>
+
+
+
+<script src="../../js/user/user.js" charset="UTF-8"></script>
+<script src="../../js/rps-api/rps_api.js" charset="UTF-8"></script>
+<script src="../../js/game/new.game.js" charset="UTF-8"></script>
+<script src="../../js/game/newGame.js" charset="UTF-8"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+*{
+    background-attachment: fixed;
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background-image: url(../pic/pop.jpg);
+    background-attachment: fixed;
+    font-family: 'Roboto Slab', serif;
+    background-size: cover;
+
+}
+
+
+.align-bottom{
+    border: 10px solid #bccbcf;
+    text-space: 50rem 100rem;
+    padding: -5px;
+    background-color: #7a295a;
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px 8px dodgerblue;
+}
+
+header {
+    padding: 5px;
+    text-align: left;
+    font-size: 10px;
+    color: white;
+    text-shadow: 5px 5px 8px lightskyblue;
+    background-attachment: fixed;
+
+}
+.dropbtn {
+    background-color: black;
+    color: white;
+    position: page;
+    padding: 20px;
+    font-size: 15px;
+    text-shadow: 5px 5px 8px lightskyblue;
+    text-align: center;
+    background-attachment: fixed;
+
+}
+.dropdown {
+    position: sticky;
+    display: inline-block;
+    border: none;
+    text-shadow: 5px 5px 8px lightskyblue;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.dropdown-content {
+    display: none;
+    position: sticky;
+    background-color:black;
+    background-attachment: fixed;
+    min-width: 200px;
+    z-index: 1;
+    text-shadow: 5px 5px 8px lightskyblue;
+    text-align: center;
+    color: white;
+}
+
+.dropdown-content a {
+    color: white ;
+    padding: 12px 16px;
+    display: block;
+    position: center;
+    text-align: center;
+    background-attachment: fixed;
+    background-color: black;
+
+}
+.dropdown-menu{
+    background-color: black;
+    color: white;
+    text-decoration-color: #cf1484;
+    background-attachment: fixed;
+}
+.dropdown-menu h5{
+    color: white;
+    background-color: #7a295a;
+    text-align: center;
+    background-attachment: fixed;
+}
+.dropdown-menu button{
+    position: relative;
+    background-color: palegreen;
+}
+
+.dropdown-content a:hover {background-color: steelblue;}
+
+.dropdown:hover .dropdown-content {display: table-row-group;}
+
+.dropdown:hover .dropbtn {background-color: steelblue;}
+form{
+    background-attachment: fixed;
+    background-color:#7a295a;
+    padding: 1px;
+    color: white;
+
+}
+.btn-group{
+    margin: auto;
+    background-color:black;
+    color: white;
+    background-attachment: fixed;
+
+
+}
+.card mb-3{
+    margin:auto;
+    background-color: #020201;
+    background-attachment: fixed;
+    color:white;
+
+}
+footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: black;
+     color: white;
+     text-align: center;
+     background-attachment: fixed;
+ }

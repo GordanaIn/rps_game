@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+:root {
+    --primary-color: #79b6f1;
+    --dark-color: #333333;
+    --light-color: #2ecff6;
+    --lose-color: #dc3545;
+    --win-color: #8a745;
+    --modal-duration:1s;
+
+
+}
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    list-style: none;
+    font-family: 'Roboto Slab', serif;
+
+
+}
+body {
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.6;
+    background-size: cover;
+    color: #cf1484;
+    text-shadow: 5px 5px 8px dodgerblue;
+    background-image: url(../pic/pop.jpg);
+    background-attachment: fixed;
+
+}
+
+header a{
+    padding:3px ;
+    position: marker;
+    white-space: inherit;
+    color: white;
+    background-color: black;
+    background-attachment: fixed;
+
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+    text-align: center;
+
+
+}
+
+.restart-btn{
+
+    display:inline-block;
+    background: palegreen;
+    color: purple;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.restart-btn:hover {
+    background: green;
+    color: purple;
+    text-decoration-color: #cf1484;
+}
+.exit-btn{
+    display: inline-block;
+    background: #480339;
+    color: white;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-bottom: 2rem;
+}
+.exit-btn:hover{
+    background: var(--primary-color);
+    color: purple;
+    text-decoration-color: #cf1484;
+}
+header{
+    text-align: center;
+    margin: 1rem 2rem;
+    font-size: 20px;
+    color:#cf1484;
+
+
+}
+
+.header h1{
+    margin-bottom: 1rem;
+    border: 10px solid #bccbcf;
+    text-space: 10rem 30rem;
+    padding: 50px;
+    background-color: #7a295a;
+    color: white;
+}
+.header a {
+    display: flow;
+    background: black;
+    color: white;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.score_board{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-size: 1.2rem;
+    color:#fff;
+
+}
+
+
+.user1:first-child  {
+    background: var(--primary-color);
+
+}
+
+.score_board span {
+
+    text-align: match-parent;
+    margin: auto;
+    background-color: black;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: white;
+    padding: 1px 23px ;
+}
+
+
+.h2{
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    text-shadow: 5px 5px 8px dodgerblue;
+}
+
+
+.modal-content button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    color: white;
+    font-size: 10px;
+    background: purple;
+    border-radius: 5px;
+}
+.user2 {
+    background: #053651;
+}
+img {
+    display:block;
+}
+
+.choices{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.choice{
+    cursor:pointer;
+}
+
+.choice:hover{
+    color:var(--primary-color);
+
+}
+
+.text-win{
+    color: var(--win-color);
+
+}
+
+.text-lose{
+    color: var(--lose-color);
+
+}
+
+@media(max-width: 700px){
+    .choice{
+        font-size: 110px;
+    }
+}
+
+@media(max-width: 500px){
+    .choice{
+        font-size: 80px;
+    }
+}
+footer {
+    background: black fixed;
+    padding: -4px;
+    text-align: center;
+    color:white;
+    text-shadow: 5px 5px 8px #6358c4;
+
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/36c4c67d0f.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="../../css/leaderboard/lboard.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+          crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+
+    <title>Leaderboard</title>
+</head>
+<body>
+<div class="title">
+    <h1>Rock Paper and Scissors <br> New Game</h1>
+    <!-- Back to Home page-->
+    <a class=" bth bth-primary " href="../../index.html">Home</a>
+    <div class="btn-group"></div>
+</div>
+<br>
+<br>
+<!--New game-->
+<div class="new1">
+    <div class="px-5 col justify-content-center"></div>
+    <label  class=" text-black py-3">Start a new game</label><br>
+    <label >Player name:</label>
+    <input id="newGameUser" class="score-board" placeholder="Enter your name" type="text" value="" required>
+    <button class="play" onclick="startGames()">Play</button>
+</div>
+<!--<div class="head">
+    <div id="user-greeting" class="nav-tabs h4">Waiting for your name...</div>
+         <p>Place click on the refresh to load available games and choose the player.</p>
+</div>-->
+<div class="new2 rounded shadow py-4">
+    <div class="px-5 col justify-content-center"></div>
+    <h5 class=" text-black py-4">Join a game</h5>
+    <button id="refreshGame" onclick="gameList()">Refresh</button>
+    <div id="gameList" class="list-group"></div>
+</div>
+<br>
+<!-- Footer-->
+<footer>
+    <h3>Author: Gordana Inic</h3>
+    <a href="mailto:hege@example.com">hege@example.com</a>
+</footer>
+
+
+
+<script src="../../js/rps-api/rps_api.js"></script>
+<script src="../../js/game/new.game.js"></script>
+</body>
+</html>

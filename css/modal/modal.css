@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+:root {
+    --modal-duration:1s;
+}
+
+.modal{
+    font-family: 'Roboto Slab', serif;
+    display:contents;
+    position: center;
+    z-index: 1;
+    left:3rem;
+    top:3px;
+    height: 10%;
+    width: 100%;
+    overflow:auto;
+    background: rgba(0,0,0,0.5);
+}
+.modal-content {
+    border: 10px solid #bccbcf;
+    background: #7a295a;
+    text-align: center;
+    margin:10% auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 5px  8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+    animation-name: revert;
+    animation-duration: var(--modal-duration);
+}
+.model-content h1, h3, p{
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+@keyframes modalopen {
+    from{
+       opacity: 0;
+    }
+    to{
+        opacity: 1;
+
+    }
+}

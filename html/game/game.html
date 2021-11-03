@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/36c4c67d0f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/game/game.css"/>
+    <link rel="stylesheet" href="../../css/modal/modal.css"/>
+    <title>Rock Paper Scissors</title>
+
+</head>
+<body>
+<!-- Restart or Clos the game -->
+<div class="container">
+    <header class="header">
+        <h1>Rock Paper and Scissors</h1>
+        <a class=" bth bth-primary " href="../../index.html"> Clos Game</a>
+        <button id="restart" class="restart-btn">Restart Game</button>
+        <h2 style="text-align: center"> </h2>
+        <div id="score" class="score">
+        <p> Player: 0</p>
+        <p> Computer: 0</p>
+        </div>
+    </header>
+
+    <!-- Form of Game -->
+    <h2>Make Your Selection</h2>
+    <div class="choices">
+        <i id="scissors" class="choice fas fa-hand-scissors fa-10x"> </i>
+        <i id="rock" class="choice fas fa-hand-rock fa-10x"> </i>
+        <i id="paper" class="choice fas fa-hand-paper fa-10x"> </i>
+    </div>
+
+
+    <!--Modal to result -->
+    <nav class="navbar navbar-expand{-sm|-md|-lg|-xl} bg- navbar-brand">
+    <div class="modal">
+        <div id="result" class="modal-content">
+        <h3 class="text-win"> </h3>
+        <i class="fas fa-hand-rock fa-10x"> </i>
+        <p> </p>
+        </div>
+    </div>
+    </nav>
+</div>
+
+<!-- Break-->
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!--Footer -->
+<footer>
+        <p>Author: Gordana Inic <br>
+         <a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
+
+
+<script src="../../js/game/game.js"></script>
+</body>
+</html>
